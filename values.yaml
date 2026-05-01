@@ -1,0 +1,7 @@
+ConfigMap:
+  mongourl: mongodb://mongodb:27017/catalogue
+deployment:
+  imageRepo: arunt98/catalogue
+  imageVersion: v1
+service:
+  type: ClusterIP
